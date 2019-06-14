@@ -1,0 +1,15 @@
+{
+  "name": "nodejses6",
+  "version": "1.0.0",
+  "description": "Testing node v12 and es6 modules",
+  "main": "server.js",
+  "author": "John Young <john@codeandcreative.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-modules server.mjs",
+    "debug": "node --inspect --experimental-modules server.mjs"
+  },
+  "dependencies": {
+    "mongoose": "^5.5.15"
+  }
+}
