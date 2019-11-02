@@ -10,6 +10,6 @@
     "debug": "node --inspect --experimental-modules server.mjs"
   },
   "dependencies": {
-    "mongoose": "^5.5.15"
+    "mongoose": "^5.7.5"
   }
 }
